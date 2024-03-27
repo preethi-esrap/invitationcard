@@ -1,0 +1,60 @@
+
+#id1{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:400;
+    text-transform:uppercase;
+    font-style:italic;
+    font-size:xx-large;
+    font-family: "Rubik Wet Paint", system-ui;
+
+
+    
+}
+h1{
+    font-size:bold;
+     color:blanchedalmond;
+}
+#u{
+    color:white;
+}
+ .v{
+    font-size:xx-large;
+    color:rgb(194, 191, 23);
+    text-align:center;
+    font-family: "Rubik Wet Paint", system-ui;
+
+
+
+}
+#w
+{
+    color:white;
+    font-size:x-large;
+}
+img{
+    border-color: rgb(245, 234, 20);
+    border-style:outset;
+}
+
+
+    @media only screen and (max-width:400px)
+    {
+        body{
+            background-image:url("marriagebackground.png");
+        }
+    }
+    /* for tab */
+    @media only screen and (min-width:401px) and (max-width:960px)
+    {
+        body{
+            background-image:url("marriagebackground.png");
+        }
+    }
+    /* for desktop */
+    @media only screen and (min-width:961px)
+    {
+        body{
+            background-image:url("marriagebackground.png");
+        }
+    }
